@@ -1,0 +1,139 @@
+.logo_img{
+  width: 8.5rem;
+  height: 3rem;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.header{
+padding: 10px 0;
+}
+.menu a{
+  display: block;
+  padding: 15px 10px;
+  border-top: 2px solid transparent;
+  color: #444;
+}
+.menu a:hover{
+  color: #444;
+  text-decoration: none;
+  border-top: 2px solid #9FC5D5;
+}
+.bg-img{
+  background-image: url(../images/bg2.jpg);
+  height: 450px;
+  background-size: cover;
+}
+.bg-col{
+  background: #E9ECEF;
+}
+.af{
+  position: relative;
+}
+.af::before{
+  content: "";
+  display: block;
+  width: 10%;
+  border-bottom: 1px solid #999;
+  position: absolute;
+  top: 11px;
+  left: 37.8%;
+}
+.af::after{
+  content: "";
+  width: 10%;
+  border-bottom: 1px solid #999;
+  position: absolute;
+  top: 11px;
+  left: 52%;
+}
+.bor .br{
+  font-size: 1.6rem;
+  border: 1px solid #E0E0E0;
+  padding: 15px;
+  border-radius: 50%;
+
+}
+.bor{
+  position: relative;
+  width: 3.7rem;
+  height: 3.7rem;
+}
+.po{
+  position: absolute;
+  top: 36%;
+  right: -5px;
+}
+@media screen and (min-width: 992px) {
+  .mar{
+    margin-bottom: 40px;
+  }
+}
+.bg-img_2{
+  padding: 30px 0;
+  background-image: url(../images/cta2-img.png), url(../images/cta2-bg.jpg);
+  height: 350px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, center;
+}
+.menu_2 a{
+  position: relative;
+  padding: 10px 15px;
+  background: #E5E5E5;
+  color: #555;
+  border-bottom: 2px solid #E5E5E5;
+  transition: background, border-bottom, .3s
+}
+.menu_2 > li:first-child a{
+  border-radius: 5px 0 0 5px;
+}
+.menu_2 > li:last-child a{
+  border-radius: 0 5px 5px 0;
+}
+.menu_2 a:hover{
+  text-decoration: none;
+  background: #49AFD5;
+  color: #fff;
+  border-bottom: 2px solid #3792B8;
+}
+.menu_2 a .downchek{
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: transparent;
+  position: absolute;
+  bottom: -20px;
+  left: 41%;
+  transition: .25s;
+}
+.menu_2 a:hover .downchek{
+  border-top-color: #318EB2;
+}
+@media screen and (max-width:576px) {
+  .pad{
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .az{
+    display: none;
+  }
+  .as{
+    display: block !important;
+  }
+}
+.as{
+  font-size: 1.5rem;
+}
+.as_{
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.menu_3 li:active .sd{
+  display: block !important;
+}
